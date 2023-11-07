@@ -10,11 +10,11 @@ guinchos = {
 
 }
 
- 
+
 
 solicitacoes = []
 
- 
+
 
 while True:
 
@@ -26,11 +26,11 @@ while True:
 
     print('0 - Encerrar atendimento')
 
- 
+
 
     escolha_menu_principal = input('Escolha uma opção do menu: ')
 
- 
+
 
     if escolha_menu_principal == '1':
 
@@ -46,17 +46,17 @@ while True:
 
                 numero_modelo += 1
 
- 
+
 
         numero_modelo = input('Digite o número do modelo do caminhão: ')
 
         numero_modelo = int(numero_modelo)
 
- 
+
 
         modelo_caminhao = None
 
- 
+
 
         for guincho_modelos in guinchos.values():
 
@@ -66,13 +66,13 @@ while True:
 
                 break
 
- 
+
 
         if modelo_caminhao:
 
             guinchos_disponiveis = [guincho for guincho, modelos in guinchos.items() if modelo_caminhao in modelos]
 
- 
+
 
             if guinchos_disponiveis:
 
@@ -92,7 +92,7 @@ while True:
 
             print('Número do modelo de caminhão não encontrado na lista!')
 
- 
+
 
     elif escolha_menu_principal == '2':
 
@@ -108,7 +108,7 @@ while True:
 
             print('Não há solicitações de guincho!')
 
- 
+
 
     elif escolha_menu_principal == '0':
 
