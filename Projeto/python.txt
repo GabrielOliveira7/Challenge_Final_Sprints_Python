@@ -1,0 +1,24 @@
+Sprint 3
+
+os dados deverão ser filtrados e armazenados em listas de dicionários;
+
+tratamento de erros para a inserção e alteração dos dados (try...except...else...finally);
+
+menu com submenus para acesso ao CRUD dos dados.
+
+
+
+========================================================================================================================
+
+Sprint 4
+
+Tendo como referência o entregável da sprint 3, a equipe deverá desenvolver o CRUD em tabelas do BD Oracle em um 
+programa em Python. Para tanto, os requisitos são os seguintes:
+
+menus e submenus para acesso às opções do CRUD (insert, update, delete e select);
+
+pelos menos 2 relatórios com filtros (Select.... where).
+
+As informações colhidas e/ou alteradas pelo programa desenvolvido devem refletir no sistema web e vice-versa.
+
+
